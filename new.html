@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>converter</title>
+    <link rel="stylesheet" href="style.css" />   <!--External css-->
+  </head>
+  <body>
+    <h1 class="heading">Temperature Convertor</h1>         <!--Heading class-->
+    <div class="main">                 <!--contain degree and Type -->
+      <div class="degree">
+        <div class="degree1">Degree</div>
+        <input type="text" id="tempindegree" placeholder="enter the temp"  autofocus/>
+      </div>
+      <div class="temperatureType">
+        <div class="typeoftemp">Type</div>
+        <select name="car" id="car">
+          <option class="option1" value="Fahrenheit">Fahrenheit</option>
+          <option class="option2" value="Celious">Celious</option>
+        </select>
+      </div>
+    </div>
+
+    <p class="em"></p>
+    <!--Error Message-->
+
+    <div class="converting">
+      <button class="convertor">Convert</button>
+    </div>
+    <div class="result"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
